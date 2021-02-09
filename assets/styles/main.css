@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+.text-primary {
+  color: #2E45E3;
+}
+.text-secondary {
+  color: #AEBBD3;
+}
+.text-accent {
+  color: #6FEB94;
+}
+.text-light {
+  color: #fdfdfd;
+}
+.text-gray {
+  color: #98A5AE;
+}
+
+.bg-primary {
+  color: #2E45E3;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.py-auto {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.on-left {
+  margin-right: 2rem;
+}
+
+.on-right {
+  margin-left: 2rem;
+}
+
+.text-primary {
+  color: #2E45E3;
+}
+.text-secondary {
+  color: #AEBBD3;
+}
+.text-accent {
+  color: #6FEB94;
+}
+.text-light {
+  color: #fdfdfd;
+}
+.text-gray {
+  color: #98A5AE;
+}
+
+.bg-primary {
+  color: #2E45E3;
+}
+
+div {
+  font-family: "Lato";
+}
+
+.font-thin {
+  font-weight: 200;
+}
+.font-regular {
+  font-weight: 400;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-black {
+  font-weight: 900;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.word-wide {
+  word-spacing: 1rem;
+}
+
+.leading-tight {
+  line-height: 0.75rem;
+}
+.leading-relaxed {
+  line-height: 2rem;
+}
+.leading-loose {
+  line-height: 4rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  margin: auto;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+#landing {
+  padding-top: 10rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-image: linear-gradient(#fdfdfd, #e5e9f5);
+  border-radius: 2rem;
+}
+
+#header-image {
+  width: 80%;
+  overflow: hidden;
+  text-align: right;
+  margin-top: -2rem;
+  margin-left: 6rem;
+}
+
+#sub-header {
+  margin-top: 2rem;
+}
+
+.page-container {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+#navigation {
+  width: 60%;
+}
+
+#cta {
+  margin-top: 4rem;
+}
+
+.btn-borderless, .btn-outline, .btn {
+  background-color: #2E45E3;
+  color: #fdfdfd;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #2E45E3;
+  border: 1px solid #2E45E3;
+}
+.btn-borderless {
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=main.css.map */

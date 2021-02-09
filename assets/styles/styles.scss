@@ -1,0 +1,76 @@
+@import "utilities";
+@import "colors";
+@import "fonts";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  margin: auto;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+#landing {
+  padding-top: 10rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-image: linear-gradient($white, $light);
+  // padding-bottom: 8rem;
+  border-radius: 2rem;
+}
+
+#header-image {
+  width: 80%;
+  overflow: hidden;
+  text-align: right;
+  margin-top: -2rem;
+  margin-left: 6rem;
+}
+
+#sub-header {
+  margin-top: 2rem;
+}
+
+.page-container {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+#navigation {
+  width: 60%;
+}
+
+#cta {
+  margin-top: 4rem;
+}
+
+%btn {
+  background-color: $primary;
+  color: $white;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn {
+  @extend %btn;
+
+  &-outline {
+    @extend %btn;
+    background-color: transparent;
+    color: $primary;
+    border: 1px solid $primary;
+  }
+
+  &-borderless {
+    @extend %btn;
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,46 @@
+@import "colors";
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.py-auto {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.on-left {
+  margin-right: 2rem;
+}
+
+.on-right {
+  margin-left: 2rem;
+}

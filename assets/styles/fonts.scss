@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+div {
+  font-family: 'Lato';
+}
+
+.font {
+  &-thin {
+    font-weight: 200;
+  }
+
+  &-regular {
+    font-weight: 400
+  }
+
+  &-bold {
+    font-weight: 700;
+  }
+
+  &-black {
+    font-weight: 900;
+  }
+}
+
+.text {
+  &-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  &-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  &-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  &-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  &-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+.word-wide {
+  word-spacing: 1rem;
+}
+
+.leading {
+  &-tight {
+    line-height: .75rem;
+  }
+
+  &-relaxed {
+    line-height: 2rem;
+  }
+
+  &-loose {
+    line-height: 4rem;
+  }
+}
